@@ -1,5 +1,10 @@
 import React from "react";
 import Card from "../components/Card";
+import BookStore from "../assets/BookStore.png";
+import Todo from "../assets/Todo.png";
+import TextUtil from "../assets/TextUtil.png";
+import PassOp from "../assets/PassOp.png";
+import Portfolio from "../assets/Portfolio.png";
 
 const Projects = () => {
   const projects = [
@@ -8,7 +13,7 @@ const Projects = () => {
       title: "TextUtils ",
       description:
         "A text Editor built on React.js, it can manipulate text like Convert to uuper case,to lower case, Remove extra spaces.",
-      image: "../src/assets/TextUtil.png",
+      image: [TextUtil],
       GitHub: "https://github.com/raghuveeersharma/Text_Util/tree/master",
       more: "https://raghuveeersharma.github.io/Text_Util",
     },
@@ -17,7 +22,7 @@ const Projects = () => {
       title: "PassOP ",
       description:
         "A password manager built with React.js. Fully secure as it store password on your local storage.",
-      image: "../src/assets/PassOP.png",
+      image: [PassOp],
       GitHub: "https://github.com/raghuveeersharma/password_manager",
       more: "https://raghuveeersharma.github.io/password_manager/",
     },
@@ -26,7 +31,7 @@ const Projects = () => {
       title: "E-BookStore",
       description:
         "A modern e-BookStore platform with MERN stack.It is a dynamic web app , all the books are fetch via API from server.",
-      image: "../src/assets/BookStore.png",
+      image: [BookStore],
       GitHub: "https://github.com/raghuveeersharma/BookStoreWeb",
       more: "",
     },
@@ -35,7 +40,7 @@ const Projects = () => {
       title: "Portfolio Website",
       description:
         "Responsive portfolio showcasing my work.I use react-animation in it, and it is fully responsive.",
-      image: "../src/assets/Portfolio.png",
+      image: [Portfolio],
       GitHub: "#",
       more: "",
     },
@@ -44,7 +49,7 @@ const Projects = () => {
       title: "Todo App",
       description:
         "A simple todo app built on MERN stack. It saves users tasks in database and user can perform CURD operations too on tasks, The UI of it is fully responsive.",
-      image: "../src/assets/Todo.png",
+      image: [Todo],
       GitHub: "https://github.com/raghuveeersharma/TODO_FRONTEND",
       more: "",
     },

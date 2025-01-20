@@ -1,6 +1,7 @@
 import React from "react";
 import ProgressBar from "../components/ProgressBar";
 import { Link } from "react-scroll";
+import Profile from "../assets/Profile12 (1).jpeg";
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
           </h1>
           <div className="mx-auto md:flex mt-10">
             <img
-              src=".\src\assets\Profile12 (1).jpeg"
+              src={Profile}
               alt="Profile"
               className="lg:w-40 lg:h-40 md:size-32 h-20 w-h-20 mx-auto rounded-full  "
             />

@@ -1,4 +1,9 @@
 import React from "react";
+import BookStore from "../assets/BookStore.png";
+import Todo from "../assets/Todo.png";
+import TextUtil from "../assets/TextUtil.png";
+import PassOp from "../assets/PassOp.png";
+import Portfolio from "../assets/Portfolio.png";
 
 const Card = ({ item }) => {
   return (
