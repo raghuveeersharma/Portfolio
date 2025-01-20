@@ -20,7 +20,7 @@ const About = () => {
             <img
               src={Profile}
               alt="Profile"
-              className="lg:w-40 lg:h-40 md:size-32 h-20 w-h-20 mx-auto rounded-full  "
+              className="lg:w-40 lg:h-40 md:size-32 h-20 w-h-20 mx-auto rounded-full mt-7 object-cover transition duration-500 ease-in-out hover:brightness-75"
             />
             <p className="md:text-lg lg:text-xl text-xm text-slate-500 md:w-[600px] w-[250px] md:text-start text-center mx-auto md:mt-1 mt-3 items-center">
               Hi, I’m Raghu Sharma. I’m currently in the final semester of my
