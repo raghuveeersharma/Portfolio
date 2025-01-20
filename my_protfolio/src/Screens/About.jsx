@@ -133,7 +133,7 @@ const About = () => {
             className="relative z-10"
           >
             <div className=" border-4 border-slate-300 w-24 md:w-52 px-2 md:px-4  py-2 text-slate-800 hover:border-pink-700 duration-700 cursor-pointer text-center ">
-              Hire Me
+              Contact
             </div>
           </Link>
           <a
