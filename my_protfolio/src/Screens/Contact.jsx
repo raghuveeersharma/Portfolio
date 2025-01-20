@@ -9,6 +9,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 
 import emailjs from "@emailjs/browser";
+import SocialLinks from "../components/SocialLinks";
 
 const Contact = () => {
   const {
@@ -183,23 +184,8 @@ const Contact = () => {
         </div>
 
         {/* Social Media Icons */}
-        <div className=" max-w-4xl mx-auto text-3xl text-white flex gap-14 justify-center mb-32">
-          <a href="https://github.com/raghuveeersharma" target="_blank">
-            <IoLogoGithub className="hover:text-pink-700 duration-500 cursor-pointer" />
-          </a>
-          <a href="">
-            <FaInstagram className="hover:text-pink-700 duration-500 cursor-pointer" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/raghuveer-sharma-810124252/"
-            target="_blank"
-          >
-            <FaLinkedin className="hover:text-pink-700 duration-500 cursor-pointer" />
-          </a>
-
-          <a href="https://leetcode.com/u/RaghuSharma48/" target="_blank">
-            <SiLeetcode className="hover:text-pink-700 duration-500 cursor-pointer" />
-          </a>
+        <div className="mb-20 text-3xl ">
+          <SocialLinks />
         </div>
       </section>
     </div>

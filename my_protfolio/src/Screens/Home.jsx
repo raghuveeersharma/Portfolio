@@ -1,8 +1,5 @@
 import React from "react";
-import { FaInstagram } from "react-icons/fa6";
-import { IoLogoGithub } from "react-icons/io";
-import { FaLinkedin } from "react-icons/fa6";
-import { SiLeetcode } from "react-icons/si";
+
 import About from "./About";
 import Contact from "./Contact";
 import { TypeAnimation } from "react-type-animation";
@@ -13,6 +10,7 @@ import Services from "./Services";
 import { Link } from "react-scroll";
 import Navbar from "../components/Navbar";
 import NavigatorToTop from "../components/NavigatorToTop";
+import SocialLinks from "../components/SocialLinks";
 
 const Home = () => {
   return (
@@ -65,23 +63,8 @@ const Home = () => {
         </div>
 
         {/* Social Media Icons */}
-        <div className="relative top-14 max-w-4xl mx-auto text-5xl text-white flex gap-8 justify-center">
-          <a href="https://github.com/raghuveeersharma" target="_blank">
-            <IoLogoGithub className="hover:text-pink-700 duration-500 cursor-pointer" />
-          </a>
-          <a href="">
-            <FaInstagram className="hover:text-pink-700 duration-500 cursor-pointer" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/raghuveer-sharma-810124252/"
-            target="_blank"
-          >
-            <FaLinkedin className="hover:text-pink-700 duration-500 cursor-pointer" />
-          </a>
-
-          <a href="https://leetcode.com/u/RaghuSharma48/" target="_blank">
-            <SiLeetcode className="hover:text-pink-700 duration-500 cursor-pointer" />
-          </a>
+        <div className="mt-8 text-5xl">
+          <SocialLinks />
         </div>
       </section>
       <div>
