@@ -6,7 +6,7 @@ import { SiLeetcode } from "react-icons/si";
 const SocialLinks = () => {
   return (
     <div>
-      <div className="relative top-6 max-w-4xl mx-auto text-white flex gap-8 justify-center">
+      <div className="relative lg:top-6 -top-6 max-w-4xl mx-auto text-white flex gap-8 justify-center">
         <a href="https://github.com/raghuveeersharma" target="_blank">
           <IoLogoGithub className="hover:text-pink-700 duration-500 cursor-pointer" />
         </a>
