@@ -2,6 +2,7 @@ import React from "react";
 import ProgressBar from "../components/ProgressBar";
 import { Link } from "react-scroll";
 import Profile from "../assets/Profile12 (1).jpeg";
+import CV from "../assets/CV.pdf";
 
 const About = () => {
   return (
@@ -104,7 +105,7 @@ const About = () => {
                   <ProgressBar skill="Express.js" percentage="75" />
                 </li>
                 <li className="md:mt-3 mt-1">
-                  <ProgressBar skill="MongoDB" percentage="65" />
+                  <ProgressBar skill="MongoDB" percentage="60" />
                 </li>
                 <li className="md:mt-3 mt-1">
                   <ProgressBar skill="Git/GitHub" percentage="70" />
@@ -112,14 +113,14 @@ const About = () => {
                 <li className="md:mt-3 mt-1">
                   <ProgressBar
                     skill="Tailwind CSS / Bootstrap"
-                    percentage="75"
+                    percentage="70"
                   />
                 </li>
                 <li className="md:mt-3 mt-1">
                   <ProgressBar skill="C/C++" percentage="80" />
                 </li>
                 <li className="md:mt-3 mt-1">
-                  <ProgressBar skill="Data Structure" percentage="65" />
+                  <ProgressBar skill="Data Structure" percentage="60" />
                 </li>
               </ul>
             </div>
@@ -137,8 +138,8 @@ const About = () => {
             </div>
           </Link>
           <a
-            href="/Raghuverr.pdf"
-            download
+            href={CV}
+            download={true}
             className="relative z-50 bg-slate-800 w-24 md:w-52 md:px-4 px-2 py-2  text-slate-100 cursor-pointer text-center "
           >
             Download CV
