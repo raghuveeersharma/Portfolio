@@ -42,7 +42,7 @@ const Projects = () => {
         "Responsive portfolio showcasing my work.I use react-animation in it, and it is fully responsive.",
       image: [Portfolio],
       GitHub: "#",
-      more: "",
+      more: "https://raghuveeersharma.github.io/Portfolio/",
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ const Projects = () => {
   return (
     <div>
       <section
-        className="relative bg-cover bg-fixed bg-[#f2fcff] bg-center h-full md:max-h-full w-full overflow-x-hidden pb-20"
+        className="relative bg-cover bg-fixed bg-[#b9ebfa] bg-center h-full md:max-h-full w-full overflow-x-hidden pb-20"
         id="Projects"
       >
         <div className="absolute inset-0 opacity-55 items-center"></div>
