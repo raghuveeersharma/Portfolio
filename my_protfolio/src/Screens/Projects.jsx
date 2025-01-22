@@ -58,16 +58,16 @@ const Projects = () => {
   return (
     <div>
       <section
-        className="relative bg-cover bg-fixed bg-[#b9ebfa] bg-center h-full md:max-h-full w-full overflow-x-hidden pb-20"
+        className="relative bg-cover bg-fixed bg-[#edf2f7] bg-center h-full md:max-h-full w-full overflow-x-hidden pb-20"
         id="Projects"
       >
-        <div className="absolute inset-0 opacity-55 items-center"></div>
+        <div className="absolute inset-0  opacity-55 items-center"></div>
         <div className="relative z-10 md:max-w-4xl mx-auto text-center py-32 items-center max-w-2xl">
           <h1 className=" text-xl font-bold text-pink-700 mb-2">PROJECTS</h1>
           <h1 className=" md:text-4xl text-2xl text-slate-800 font-bold">
-            Check out some of my works
+            Check out some of my works.
           </h1>
-          <p className="mt-5 lg:px-0 px-4 text-slate-600">
+          <p className="mt-5 lg:px-0 px-4 text-slate-600 font-serif">
             Projects and Technologies - Throughout my academic & professional
             journey, I have worked on various projects that demonstrate my
             expertise in modern technologies. My projects primarily utilize the
