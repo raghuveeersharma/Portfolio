@@ -41,7 +41,7 @@ const Projects = () => {
       description:
         "Responsive portfolio showcasing my work.I use react-animation in it, and it is fully responsive.",
       image: [Portfolio],
-      GitHub: "#",
+      GitHub: "https://github.com/raghuveeersharma/Portfolio",
       more: "https://raghuveeersharma.github.io/Portfolio/",
     },
     {
