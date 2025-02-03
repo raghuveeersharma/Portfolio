@@ -1,5 +1,7 @@
-import React from "react";
-import Card from "../components/Card";
+import React, { Suspense } from "react";
+const Card = React.lazy(() => {
+  return import("../components/Card");
+});
 import BookStore from "../assets/BookStore.png";
 import Todo from "../assets/Todo.png";
 import TextUtil from "../assets/TextUtil.png";
@@ -56,7 +58,7 @@ const Projects = () => {
   ];
 
   return (
-    <div>
+    <>
       <section
         className="relative bg-cover bg-fixed bg-[#edf2f7] bg-center h-full md:max-h-full w-full overflow-x-hidden pb-20"
         id="Projects"
@@ -82,12 +84,14 @@ const Projects = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 md:mx-20 mx-[14.5%] gap-16 my-10 items-center ">
-          {projects.map((item) => (
-            <Card key={item.id} item={item} />
-          ))}
+          <Suspense>
+            {projects.map((item) => (
+              <Card key={item.id} item={item} />
+            ))}
+          </Suspense>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 
