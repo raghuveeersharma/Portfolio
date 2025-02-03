@@ -84,7 +84,7 @@ const Services = () => {
     beforeChange: (current, next) => setActiveIndex(next),
   };
   return (
-    <div>
+    <>
       <section
         className="relative bg-cover bg-fixed bg-black bg-center h-screen md:max-h-full w-full overflow-x-hidden pb-20 pt-8 overflow-y-hidden"
         id="services"
@@ -118,7 +118,7 @@ const Services = () => {
           </Slider>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

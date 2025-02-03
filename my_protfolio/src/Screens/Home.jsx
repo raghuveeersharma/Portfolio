@@ -14,7 +14,7 @@ import SocialLinks from "../components/SocialLinks";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <div className="fixed z-50">
         <Navbar />
       </div>
@@ -95,7 +95,7 @@ const Home = () => {
       <section className="relative">
         <Contact />
       </section>
-    </div>
+    </>
   );
 };
 

@@ -6,7 +6,7 @@ import CV from "../assets/CV.pdf";
 
 const About = () => {
   return (
-    <div>
+    <>
       <section
         className="relative bg-cover bg-fixed bg-white bg-center h-full md:max-h-full w-full overflow-x-hidden"
         id="about"
@@ -146,7 +146,7 @@ const About = () => {
           </a>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

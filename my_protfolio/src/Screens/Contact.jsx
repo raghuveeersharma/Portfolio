@@ -49,7 +49,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <>
       <section
         className="relative bg-cover bg-fixed bg-[#151515] bg-center h-full md:max-h-full w-full overflow-x-hidden "
         id="contact"
@@ -188,7 +188,7 @@ const Contact = () => {
           <SocialLinks />
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

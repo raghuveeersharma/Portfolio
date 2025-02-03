@@ -3,7 +3,7 @@ import { FaGraduationCap } from "react-icons/fa";
 
 const Resume = () => {
   return (
-    <div>
+    <>
       <section
         className="relative bg-cover bg-fixed bg-[#ebebeb] bg-center h-full md:max-h-full w-full overflow-x-hidden pb-20"
         id="resume"
@@ -98,7 +98,7 @@ const Resume = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

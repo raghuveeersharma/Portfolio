@@ -43,7 +43,7 @@ function Navbar() {
   };
 
   return (
-    <div>
+    <>
       {/* Navigation Bar */}
       <div className="md:w-20 w-16 md:ml-1 ">
         <header className="bg-black p-4">
@@ -99,7 +99,7 @@ function Navbar() {
           </nav>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

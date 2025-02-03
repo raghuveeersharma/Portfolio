@@ -31,7 +31,7 @@ const NavigatorToTop = () => {
     };
   }, []);
   return (
-    <div>
+    <>
       {isScrolling && (
         <Link
           to="home"
@@ -46,7 +46,7 @@ const NavigatorToTop = () => {
           </div>
         </Link>
       )}
-    </div>
+    </>
   );
 };
 

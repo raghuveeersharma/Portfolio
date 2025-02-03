@@ -2,7 +2,7 @@ import React from "react";
 
 const ProgressBar = ({ skill, percentage }) => {
   return (
-    <div>
+    <>
       <h1 className="md:text-lg text-sm font-semibold">{skill}</h1>
       <div className="md:w-full w-[300px] bg-gray-300 h-1 md:h-2">
         <div
@@ -13,7 +13,7 @@ const ProgressBar = ({ skill, percentage }) => {
       <div className="mt-1 text-center md:text-sm text-xs text-gray-700 ">
         {percentage}%
       </div>
-    </div>
+    </>
   );
 };
 
