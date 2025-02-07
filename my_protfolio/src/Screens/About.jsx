@@ -54,14 +54,19 @@ const About = () => {
               <h1 className="md:text-lg text-sm font-semibold mt-4 md:mt-10">
                 WEB SITE:
               </h1>
-              <p className="text-slate-600 text-sm md:text-lg">
-                https://raghuveersharma.com
-              </p>
+              <a
+                href="https://raghuveeersharma.github.io/Portfolio/"
+                target="_blank"
+                className="text-slate-600 text-sm md:text-lg hover:text-blue-600 cursor-pointer relative z-20"
+              >
+                Click Here
+              </a>
               <h1 className="md:text-lg text-sm font-semibold mt-4 md:mt-10">
                 EMAIL:
               </h1>
               <p className="text-slate-600 text-xs md:text-lg">
-                sharmaraghu157@gmail.com
+                sharmaraghu157@gmail.com <br />
+                sharmaveer157@gmail.com
               </p>
               <h1 className="md:text-lg text-sm font-semibold mt-4 md:mt-10">
                 PHONE:
