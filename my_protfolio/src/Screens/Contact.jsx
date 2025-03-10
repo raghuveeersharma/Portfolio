@@ -166,10 +166,27 @@ const Contact = () => {
             <h1 className="text-[#ff0077] font-bold md:text-2xl text-lg mt-5">
               Email me at
             </h1>
-            <p className="mt-4 text-slate-500">
-              sharmaraghu157@gmail.com <br />
-              sharmaveer157@gmail.com <br />
-              raghuverrsharma@gmail.com
+            <p className="mt-4 text-slate-400">
+              <a
+                href="mailto:sharmaraghu157@gmail.com"
+                className="hover:underline"
+              >
+                sharmaraghu157@gmail.com
+              </a>{" "}
+              <br />
+              <a
+                href="mailto:sharmaveer157@gmail.com"
+                className="hover:underline"
+              >
+                sharmaveer157@gmail.com
+              </a>
+              <br />
+              <a
+                href="mailto:raghuverrsharma@gmail.com"
+                className="hover:underline"
+              >
+                raghuverrsharma@gmail.com
+              </a>
             </p>
           </div>
           <div className="flex flex-col items-center text-center text-white w-full lg:w-[40%] h-52 pt-0 hover:scale-105 duration-700">
@@ -179,7 +196,15 @@ const Contact = () => {
             <h1 className="text-[#ff0077] font-bold md:text-2xl text-lg mt-5">
               Call me at
             </h1>
-            <p className="mt-4 text-slate-400">9575136951</p>
+            <p className="mt-4 text-slate-400">
+              {" "}
+              <a
+                href="tel:+919575136951"
+                className="hover:underline text-slate-400 text-sm md:text-lg relative z-20"
+              >
+                +91 95751 36951
+              </a>
+            </p>
           </div>
         </div>
 
