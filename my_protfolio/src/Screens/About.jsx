@@ -59,30 +59,47 @@ const About = () => {
                 target="_blank"
                 className="text-slate-600 text-sm md:text-lg hover:text-blue-600 cursor-pointer relative z-20"
               >
-                Click Here
+                https://raghuveeersharma.github.io/Portfolio
               </a>
               <h1 className="md:text-lg text-sm font-semibold mt-4 md:mt-10">
                 EMAIL:
               </h1>
-              <p className="text-slate-600 text-xs md:text-lg">
-                sharmaraghu157@gmail.com <br />
-                sharmaveer157@gmail.com
+              <p className="text-slate-600 text-xs md:text-lg relative z-30">
+                <a
+                  href="mailto:sharmaraghu157@gmail.com"
+                  className="hover:underline"
+                >
+                  sharmaraghu157@gmail.com
+                </a>
+                <br />
+                <a
+                  href="mailto:sharmaveer157@gmail.com"
+                  className="hover:underline"
+                >
+                  sharmaveer157@gmail.com
+                </a>
               </p>
+
               <h1 className="md:text-lg text-sm font-semibold mt-4 md:mt-10">
                 PHONE:
               </h1>
-              <p className="text-slate-600 text-sm md:text-lg">9575136951</p>
+              <a
+                href="tel:+919575136951"
+                className="hover:underline text-slate-600 text-sm md:text-lg relative z-20"
+              >
+                +91 95751 36951
+              </a>
               <h1 className="md:text-lg text-sm font-semibold mt-4 md:mt-10">
                 Location:
               </h1>
               <p className="text-slate-600 text-sm md:text-lg">
-                Indore , Madhya Pradesh , India
+                Indore, Madhya Pradesh, India
               </p>
               <h1 className="md:text-lg text-sm font-semibold mt-4 md:mt-10">
                 Languages:
               </h1>
               <p className="text-slate-600 text-sm md:text-lg">
-                Hindi , English
+                Hindi, English
               </p>
             </div>
           </div>
@@ -93,7 +110,7 @@ const About = () => {
               </h1>
               <p className=" mt-1 w-80 md:w-96 text-slate-600 md:text-lg lg:text-xl text-sm md:mx-0 mx-auto">
                 Full Stack Developer skilled in MERN stack with expertise in
-                React.js, Next.js, Tailwind CSS, Node.js, Express.js, and
+                React.js, Next.js, Tailwind CSS, Node.js, Express.js and
                 MongoDB. Proficient in building responsive, scalable web
                 applications with a focus on performance and design.
               </p>
