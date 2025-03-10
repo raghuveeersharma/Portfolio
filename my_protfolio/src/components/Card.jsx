@@ -7,7 +7,7 @@ export default function Card({ item }) {
   const truncatedText = words.slice(0, 15).join(" ") + "...";
 
   return (
-    <div className="card lg:card-side bg-[#ffffff] shadow-2xl hover:shadow-black md:w-[100%] w-72 md:h-[300px] rounded-md text-slate-700 border-2 border-[#dddef0] hover:scale-105 duration-500">
+    <div className="card lg:card-side bg-[#ffffff] shadow-2xl hover:shadow-black md:w-[100%] w-72 md:h-[300px] rounded-md text-slate-700 border-2 border-[#dddef0] hover:scale-105 duration-500 p-1">
       <figure>
         <img
           src={item.image}
