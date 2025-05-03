@@ -56,7 +56,7 @@ const Projects = () => {
         "A simple todo app built on MERN stack. It saves users tasks in database and user can perform CURD operations too on tasks, The UI of it is fully responsive.",
       image: [Todo],
       GitHub: "https://github.com/raghuveeersharma/TODO_FRONTEND",
-      more: "",
+      more: "https://todo-frontend-sigma-opal.vercel.app/",
     },
     {
       id: 6,
@@ -72,7 +72,7 @@ const Projects = () => {
   return (
     <>
       <section
-        className="relative bg-cover bg-center bg-fixed h-full w-full overflow-x-hidden pb-20"
+        className="relative bg-cover bg-center md:bg-fixed min-h-screen w-full overflow-x-hidden pb-20"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1485470733090-0aae1788d5af?q=80&w=1517&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",

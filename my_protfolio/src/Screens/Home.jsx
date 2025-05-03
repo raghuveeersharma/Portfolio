@@ -20,7 +20,7 @@ const Home = () => {
       </div>
       {/* Section with Background Image */}
       <section
-        className="relative bg-cover bg-center bg-fixed h-screen w-full overflow-x-hidden"
+        className="relative bg-cover bg-center md:bg-fixed min-h-screen w-full overflow-x-hidden"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5pZ2h0JTIwc2t5JTIwd2FsbHBhcGVyfGVufDB8fDB8fHww')",
