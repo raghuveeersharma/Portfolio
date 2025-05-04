@@ -3,10 +3,7 @@ import { useForm } from "react-hook-form";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
-import { FaInstagram } from "react-icons/fa6";
-import { IoLogoGithub } from "react-icons/io";
-import { FaLinkedin } from "react-icons/fa6";
-import { SiLeetcode } from "react-icons/si";
+
 
 import emailjs from "@emailjs/browser";
 import SocialLinks from "../components/SocialLinks";
