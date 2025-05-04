@@ -38,7 +38,7 @@ const Projects = () => {
         "A modern e-BookStore platform with MERN stack.It is a dynamic web app , all the books are fetch via API from server.",
       image: [BookStore],
       GitHub: "https://github.com/raghuveeersharma/BookStoreWeb",
-      more: "",
+      more: "https://book-store-web-flame.vercel.app/",
     },
     {
       id: 4,
